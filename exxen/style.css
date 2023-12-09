@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Droid Sans",Helvetica,Arial,sans-serif;
+  }
+
+  html {
+    background-color: black;
+  }
+
+        /* NAV-BAR1 */
+  .site-container {
+    background-color: black;
+  width: 105%;
+  }
+
+  .logo img {
+    height: 70px;
+    margin-left: 44vh
+  }
+
+  .nav-bar {
+    background-color: #ffcb04;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    gap: 12rem
+  }
+
+  .menu {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 0rem;
+}
+
+.menu-content {
+
+  display: flex;
+  color: white;
+  font-size: 15px;
+  margin: 170px;
+}
+
+.menu-content .Ticari {
+  padding: 9px;
+  margin: 7px;
+  width: 265px;
+  height: 37px;
+  background-color: black;
+  color: #ffcb04;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: -36px;
+}
+
+.menu-content .üye-giriş {
+  padding: 9px;
+  margin: 7px;
+  width: 129px;
+  height: 37px;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 2px;
+  border: 1px solid;
+}
+
+.menu-content .Ticari a{
+  text-decoration: none;
+  color: #ffcb04;
+}
+
+.menu-content .üye-giriş a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu-content .lng {
+  padding: 13px;
+  margin-top: auto;
+}
+
+
+
+.lng select {
+  border: none;
+  color: black;
+  background-color: #ffcb04;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+          /* NAV-BAR 2*/
+.nav-bar2 {
+    width: 100%;
+    height: 120px;
+    background-color:#111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.menu2 {
+
+  display: flex;
+  color: white;
+  font-size: 15px;
+  margin: 170px;
+}
+
+.menu2 input {
+  padding: 10px;
+  margin: 20px;
+  width: 385px;
+  height: 49px;
+  font-weight: 900;
+  color: black;
+}
+
+.menu2 button {
+
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  height: 50px;
+  background-color: #ffcb04;
+  font-weight: 900;
+  color: black;
+
+}
+
+.content-foto img{
+
+  width: 65%;
+  margin-left: 18%;
+  margin-right: 25%;
+  background-repeat: no-repeat;
+}
+
+.film-container-flex {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.film-container-flex img {
+   width: 100%;
+}
+
+.film-container1 {
+
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.film-container1 img {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.film-container1, h1{
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.film-container2 {
+
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.film-container2 img {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.logo2 img{
+
+  display: flex;
+    margin: auto;
+    height: 10rem;
+    margin-top: 20px
+}
+
+.metin h1 {
+  text-align: center;
+  width: 91%;
+  margin: 30px 0;
+  padding: 0px 94px;
+  font-size: 3vw;
+  margin-left: 10vh;
+}
+
+.market-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.market-link img {
+  height: 40px;
+  width: auto;
+  margin: 0 5px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 27px;
+}
+
+.social-media img {
+  height: 29px;
+  width: auto;
+  margin: 9px;
+}
+
+.helping {
+  padding: 10px;
+  text-align: center;
+  background-color: #090909;
+}
+
+.kny {
+  text-align: center;
+  background-color: #090909;
+  margin-bottom: 62px;
+}

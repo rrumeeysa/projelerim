@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.container img {
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-container {
+    background-color: #000000d9;
+    height: 65vh;
+    width: 49vh;
+    border-radius: 6px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.login {
+    margin-top: -80vh;
+    display: grid;
+    place-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90%;
+}
+
+.buttons h3 {
+    color: white;
+    margin: 35px;
+    font-size: 31px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.buttons input {
+    margin: 7px;
+    height: 58px;
+    width: 75%;
+    margin-left: 54px;
+    padding: 10px;
+    background-color: #2e2a2a;
+    border: none;
+}
+
+.buttons button {
+    margin: 7px;
+    height: 58px;
+    width: 75%;
+    margin-left: 54px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 36px;
+}
+
+.help {
+    margin-top: -90%;
+}
+
+.ticked {
+
+    display: flex;
+    margin: 13%;
+}
+
+.ticked h5{
+  color: gray;
+  font-family: 'Poppins';
+  margin: 5px;
+  font-size: 12px;
+}
+
+.ticked a {
+    text-decoration: none;
+    margin-left: 49%;
+    margin-top: 3px;
+    color: gray;
+}
